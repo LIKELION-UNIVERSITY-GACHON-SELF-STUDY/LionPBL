@@ -35,7 +35,6 @@ public class Main{
         System.out.println(i+1+"번: "+name[i]);
       }
     }
-    //String[] name =new String[n];
 
   }
 }
