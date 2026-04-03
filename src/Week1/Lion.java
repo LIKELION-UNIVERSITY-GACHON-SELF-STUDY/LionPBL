@@ -20,12 +20,11 @@ public class Lion {
 
     public void run() {
         // 불필요한 this. 제거
-        if(!isValidLionNumberInput())
+        while(!isValidLionNumberInput())
             printErrorMessage();
-        else{
-            inputLionNames();
-            printLionNames();
-        }
+        inputLionNames();
+        printLionNames();
+
     }
 
 
