@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Lion_week1 {
+public class week1 {
 
     public static void main(String[] args) {
 
@@ -101,3 +101,5 @@ public class Lion_week1 {
         }
     }
 }
+
+
