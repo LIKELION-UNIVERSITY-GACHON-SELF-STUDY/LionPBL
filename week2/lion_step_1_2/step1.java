@@ -9,7 +9,6 @@ public class step1 {
 
     Scanner scanner = new Scanner(System.in);
 
-
     System.out.println("이름을 입력해주세요: ");
     String name = scanner.nextLine();
     System.out.println("전공을 입력해주세요: ");
