@@ -1,4 +1,4 @@
-package Week2;
+package Week2.Package1;
 
 public class Lion {
     Lion () { // 생성자

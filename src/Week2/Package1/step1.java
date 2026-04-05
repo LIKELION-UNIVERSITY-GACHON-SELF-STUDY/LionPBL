@@ -1,9 +1,9 @@
-package Week2;
+package Week2.Package1;
 
 
 import java.util.Scanner;
 
-public class step2 {
+public class step1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -29,7 +29,6 @@ public class step2 {
             lion.major = name;
             lion.generation = generation; // private 필드는 외부에서 수정할 수 없음
         }
-
     }
 
 }

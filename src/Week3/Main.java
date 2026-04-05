@@ -6,6 +6,7 @@ import Week3.role.OperatorLion;
 import Week3.role.StudentLion;
 
 public class Main {
+    // readme 추가 필요
     public static void main(String[] args) {
         Lion studentLion =  new StudentLion();
         Lion operatorLion =  new OperatorLion();
