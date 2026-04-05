@@ -3,8 +3,8 @@ package week2.package1;
 public class Lion {
 
     public String name;
-    String specialty;
-    private int corps;
+    public String specialty;
+    public int corps;
 
     public Lion(String name, String specialty, int corps) {
 
@@ -19,6 +19,27 @@ public class Lion {
         }
         this.name = name;
         this.specialty = specialty;
+        this.corps = corps;
+    }
+
+    public void ModifyNameLion(String name) {
+        if(name.trim().isEmpty()) {
+            throw new IllegalArgumentException("이름이 비었습니다.");
+        }
+        this.name = name;
+    }
+
+    public void ModifySpecialtyLion(String specialty) {
+        if(specialty.trim().isEmpty()) {
+            throw new IllegalArgumentException("전공이 비어있습니다.");
+        }
+        this.specialty = specialty;
+    }
+
+    public void ModifyCorpsLion(int corps) {
+        if(corps < 1) {
+            throw new IllegalArgumentException("기수가 1 미만입니다.");
+        }
         this.corps = corps;
     }
 }
