@@ -21,11 +21,11 @@ public class Lion {
 
     public boolean isValid() {
       System.out.println("검증을 시작합니다...🔍");
-      if (name.isEmpty()) {
+      if (name.isBlank()) {
         System.out.println("⚠️ 이름은 비어있을 수 없습니다.");
         return false;
       }
-      else if (major.isEmpty()) {
+      else if (major.isBlank()) {
         System.out.println("⚠️ 전공이 비어있을 수 없습니다.");
         return false;
       }

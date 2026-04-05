@@ -20,9 +20,9 @@ public class Step1 {
 
     // 검증
     System.out.println("검증을 시작합니다...🔍");
-    if (name.isEmpty()) {
+    if (name.isBlank()) {
       System.out.println("⚠️ 이름은 비어있을 수 없습니다.");
-    } else if (major.isEmpty()) {
+    } else if (major.isBlank()) {
       System.out.println("⚠️ 전공이 비어있을 수 없습니다.");
     } else if (generation < 1) {
       System.out.println("⚠️ 기수는 1보다 작을 수 없습니다.");
