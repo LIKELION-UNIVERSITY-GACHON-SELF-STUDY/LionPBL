@@ -10,9 +10,9 @@ public class Step2 {
     System.out.println("🦁 안녕하세요, 아기사자님!");
 
     System.out.println("1. 아기사자님의 이름을 입력해주세요.");
-    String name = sc.next();
+    String name = sc.nextLine();
     System.out.println("2. 아기사자님의 전공을 입력해주세요.");
-    String major = sc.next();
+    String major = sc.nextLine();
     System.out.println("3. 마지막으로 아기사자님의 활동 기수를 입력해주세요.");
     int generation = sc.nextInt();
 
