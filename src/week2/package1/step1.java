@@ -4,17 +4,6 @@ import java.util.Scanner;
 
 public class step1 {
 
-    public String name;
-    String specialty;
-    private int corps;
-
-    public step1(String name, String specialty, int corps) {
-
-        this.name = name;
-        this.specialty = specialty;
-        this.corps = corps;
-    }
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -32,7 +21,7 @@ public class step1 {
             throw new IllegalArgumentException("기수가 1 미만입니다.");
         }
 
-        step1 lion = new step1(name, specialty, corps);
+        Lion lion = new Lion(name, specialty, corps);
 
     }
 }
