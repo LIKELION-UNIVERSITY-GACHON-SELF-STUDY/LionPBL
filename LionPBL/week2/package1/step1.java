@@ -16,7 +16,7 @@ public class step1 {
         System.out.print("전공을 입력하세요 : ");
         major = sc.nextLine();
         System.out.print("기수를 입력하세요 : ");
-        num = Integer.parseInt(sc.nextLine());
+        num = sc.nextInt();
         System.out.println("입력값 검증을 실행합니다");
         if(name.trim().isEmpty() ){
             System.out.print("이름이 비어 있습니다");
