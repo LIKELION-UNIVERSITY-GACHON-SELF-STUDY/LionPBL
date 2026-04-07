@@ -13,7 +13,7 @@ public class step2 {
     System.out.print("전공을 입력하세요 : ");
     major = sc.nextLine();
     System.out.print("기수를 입력하세요 : ");
-    num = Integer.parseInt(sc.nextLine());
+    num = sc.nextInt();
     Lion lion = new Lion(name,major, num);
 
 
