@@ -20,23 +20,21 @@ public class Lion {
     }
 
     public boolean isValid() {
+      // 검증
       System.out.println("검증을 시작합니다...🔍");
-
-      boolean isValid = true;
-
       if (name.isBlank()) {
         System.out.println("⚠️ 이름은 비어있을 수 없습니다.");
-        isValid = false;
-      }
-      if (major.isBlank()) {
-        System.out.println("⚠️ 전공이 비어있을 수 없습니다.");
-        isValid = false;
-      }
-      if (generation < 1) {
-        System.out.println("⚠️ 기수는 1보다 작을 수 없습니다.");
-        isValid = false;
-      }
+        return false;
 
-      return isValid;
+      } else if (major.isBlank()) {
+        System.out.println("⚠️ 전공이 비어있을 수 없습니다.");
+        return false;
+
+      } else if (generation < 1) {
+        System.out.println("⚠️ 기수는 1보다 작을 수 없습니다.");
+        return false;
+
+      }
+      return true;
     }
 }
