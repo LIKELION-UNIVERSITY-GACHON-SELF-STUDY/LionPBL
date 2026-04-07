@@ -21,10 +21,10 @@ public class step1 {
         if(name.trim().isEmpty() ){
             System.out.print("이름이 비어 있습니다");
             flag = false;
-        }if(major.trim().isEmpty() ){
+        }else if(major.trim().isEmpty() ){
             System.out.println("전공이 비어 있습니다");
             flag = false;
-        }if(num < 0 ){
+        }else if(num < 0 ){
             System.out.print("기수가 올바르지 않습니다");
             flag = false;
         }

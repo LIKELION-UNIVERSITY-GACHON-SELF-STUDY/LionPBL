@@ -9,7 +9,7 @@ public class step3 {
     Scanner sc = new Scanner(System.in);
     String name;
     int num;
-    String  major;
+    String major;
     int Number;
     System.out.print("이름을 입력하세요 : ");
     name = sc.nextLine();
