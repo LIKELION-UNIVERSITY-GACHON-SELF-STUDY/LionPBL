@@ -41,13 +41,12 @@ public class Main {
 
     Staff staff = new Staff(name, major,generation,part,position);
 
-    System.out.println("================================");
-    System.out.println("🥷 이름: "+lion.name+ "| 🎓 전공: "+lion.major+"| 📌 기수: "+lion.generation+"| 🖥️ 파트(백엔드/프론트엔드/기획/디자인): "+lion.part);
-    System.out.println("🆔 학번: "+lion.number);
+    System.out.println("\n=================결과=================");
+    System.out.println(lion.getInfo());
     lion.SubmissionStatus();
-    System.out.println("================================");
-    System.out.println("🥷 이름: "+staff.name+ "| 🎓 전공: "+staff.major+"| 📌 기수: "+staff.generation+"| 🖥️ 파트(백엔드/프론트엔드/기획/디자인): "+staff.part);
-    System.out.println("⭐ 직책(대표/부대표/파트장/멘토): "+staff.position);
+    System.out.println("----------------------------------------");
+    System.out.println(staff.getInfo());
     staff.SubmissionStatus();
+    System.out.println("========================================");
   }
 }
